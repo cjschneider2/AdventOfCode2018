@@ -1,12 +1,12 @@
 use std::collections::HashSet;
 
 fn main() {
-    let input_str = include_str!("../input_part1.txt");
+    let input_str = include_str!("../input.txt");
 
     let part_1_answer = part_1(&input_str);
     println!("Part 1: {}", part_1_answer);
 
-    let part_2_answer = part_2(&input_str); // NOTE: uses same input
+    let part_2_answer = part_2(&input_str);
     println!("Part 2: {}", part_2_answer);
 }
 
